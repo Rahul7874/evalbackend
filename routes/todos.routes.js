@@ -1,7 +1,7 @@
 const {Router} = require("express")
 require("dotenv").config()
 
-const {TodoModel} = require("../models/todo.model")
+const {TodoModel} = require("../models/Todo.model.js")
 
 const todosController = Router();
 
